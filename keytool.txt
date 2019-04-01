@@ -1,0 +1,17 @@
+keytool.txt
+Created Mon Apr  1 11:05:22 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+keytool
+
+
+Manages a keystore (database) of cryptographic keys,
+X.509 certificate chains, and trusted certificates.
+
+
+Links
+=====
+keytool
+https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html
+
