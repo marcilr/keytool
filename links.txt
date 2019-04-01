@@ -8,6 +8,20 @@ keytool related links
 
 Links
 =====
+How to import certificates to ColdFusion's truststore
+Uses:
+  cf_root/runtime/bin/keytool
+Lacking from:
+  /usr/local/coldfusion11/cfusion/runtime/bin/
+  /usr/local/coldfusion11/cfusionInt/runtime/bin/
+  /usr/local/coldfusion11/cfusionSSL/runtime/bin
+Likely need to install keytool
+https://helpx.adobe.com/coldfusion/kb/import-certificates-certificate-stores-coldfusion.html
+
+How to: Importing Certificates into Cold Fusion
+Simply steps defined here.
+https://community.spiceworks.com/how_to/112407-importing-certificates-into-cold-fusion
+
 keytool - Manages a keystore (database) of cryptographic keys,
 X.509 certificate chains, and trusted certificates.
 https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html
