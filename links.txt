@@ -14,6 +14,9 @@ Links
 Delete a certificate from a keystore with keytool
 https://www.tbs-certificates.co.uk/FAQ/en/supprimer-certificat-keystore-java.html
 
+Find the alias name in the keystore file
+https://stackoverflow.com/questions/28105134/find-the-alias-name-in-the-keystore-file/28105235
+
 How to check certificate name and alias in keystore files?
 https://stackoverflow.com/questions/12893995/how-to-check-certificate-name-and-alias-in-keystore-files
 
