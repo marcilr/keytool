@@ -9,9 +9,31 @@ keytool
 Manages a keystore (database) of cryptographic keys,
 X.509 certificate chains, and trusted certificates.
 
+List coldfusion keystores:
+$ cd /usr/local/coldfusion11/
+
+$  find . -name cacerts
+./jre-1.7.0-openjdk.x86_64/lib/security/cacerts
+./jre_old/lib/security/cacerts
+./jre1.8.0_201/lib/security/cacerts
+./cfusion/jetty/jre/lib/security/cacerts
+$
+
+List certs in keystore:
+
+$  cd /usr/local/coldfusion11/
+$ /usr/local/coldfusion11/jre/bin/keytool -v -list \
+-storepass <pass> -noprompt \
+-keystore /usr/local/coldfusion11/jre1.8.0_201/lib/security/cacerts
+$
+
+grep output of above?
+
 
 Links
 =====
 keytool
 https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html
 
+SSL and the trusted keystore in Java
+https://www.coldfusionmuse.com/index.html.cfm/2005/1/29/keystore
